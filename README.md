@@ -9,3 +9,4 @@ curl -sS https://webi.sh/gh | sh
 gh auth login
 git config user.name "insertYourUserName"
 git config user.email "insertYourEmail@here.com"
+
