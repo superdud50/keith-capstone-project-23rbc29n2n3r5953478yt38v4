@@ -126,22 +126,22 @@
   </div>
 </div>
    <script>
+      function display2(myMessage){
+    
+        document.write(myMessage);
+  }
+    function ask(){
+      userName = prompt("Enter your name. ")
+   return "Your Name is " + userName;
       
+    }
+      name = ask();
+  display2(name);
+  display2("<br>")
+  display2("The data type is ");
+  display2(typeof name);
 
-      
-      
-function askForShoes(){
-      
-    for (count = 0; count < 3; count++)
-      {
-        shoeItem = ask("Tell me your favorite 3 shoes")
-        
-        shoeTag.innerHTML = shoeTag.innerHTML +  '<li class = "list-group-item">' + shoeItem + '<li>'
-        
-      }
-      
-       
-     }
+
       
     </script>
     </main>
