@@ -34,7 +34,7 @@
    class = "container border">
   <div id="outputTag">
     </div>
-     <button onclick="askForShoes()"> Click here to tell us about your favorite shoes!</button>
+     
   </body>
   
   <body style="background-color: lightgoldenrodyellow" + class="container">
@@ -125,9 +125,27 @@
     </div>
   </div>
 </div>
-   
-    </main>
+   <script>
+      
 
+      
+      shoeTag.innerHTML = groceryTag.innerHTML + '<li class = "list-group-item">' + shoeItem + '<li>';
+function askForShoes(){
+      
+    for (count = 0; count < 3; count++)
+      {
+        shoeItem = ask("Tell me your favorite 3 shoes")
+        
+        shoeTag.innerHTML = shoeTag.innerHTML +  '<li class = "list-group-item">' + shoeItem + '<li>'
+        
+      }
+      
+       
+     }
+      
+    </script>
+    </main>
+    <button onclick="askForShoes()"> Click here to tell us about your favorite shoes!</button>
     <hr />
     <footer>
       Sitemap:<br />
