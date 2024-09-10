@@ -69,10 +69,39 @@
     2.Replace the quotes with backticks
     const myString = `Hello Keith! How are you`
     
-    3.Separate the part that should be a varaible
+    3.Separate the part that should be a variable
+    const myString = `Hello $(Keith) ! How are you?`
     
+    4. Replace it wih the actual variable
+    const myString = `Hello $(userName) ! How are you?``
+    
+    5. Provide a value for the variable
+    const userName = "Keith";
+    
+    `<div class = "card">
+    <img class = "card-img-top" src = "spaghetti.jpg" />
+    <div class = "card-body">
+        <h3 class="card-title" > Fish Tacos </h3>
+        Delicicous and perfectly seasoned
+        </div>
+        </div>`
     
     ****************/
+    
+    {
+      const.card = {
+        
+      }
+      card.src = 
+   const cardString =  `<div class = "card">
+    <img class = "card-img-top" src = "${card.src}" />
+    <div class = "card-body">
+        <h3 class="card-title" > ${card.title} </h3>
+        ${card.summary}
+        </div>
+        </div>`
+   
+   }
     </script>
   
     
