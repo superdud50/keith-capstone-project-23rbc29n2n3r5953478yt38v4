@@ -16,3 +16,4 @@ function ask(message) {
       return userNumber
     }
 }
+
