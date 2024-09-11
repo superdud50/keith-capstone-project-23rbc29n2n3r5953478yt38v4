@@ -17,18 +17,10 @@
     <script>
       function askForGroceries(){
        
-      
-      
-      
-      groceryTag.innerHTML = groceryTag.innerHTML + '<li class= "list-group-item"> Eggs </li>';
-     
-      groceryItem = ask("Enter a grocery item");
-      
-      groceryTag.innerHTML = groceryTag.innerHTML + '<li class = "list-group-item">' + groceryItem + '<li>'; 
-    
+  
     for (count = 0; count < 3; count++)
       {
-        groceryItem2 = ask("Enter 3 grocery items")
+        groceryItem2 = ask2("Enter 3 grocery items")
         
         groceryTag.innerHTML = groceryTag.innerHTML +  '<li class = "list-group-item">' + groceryItem2 + '<li>'
         
@@ -37,8 +29,17 @@
        
      }
       
-      
+     display(askForGroceries)
+      name = askForGroceres();
+  display(name2);
+  display2("<br>")
+  display2("The data type is ");
+  display2(typeof name);
+       
     </script>
+    <body>
+      
+    </body>
     <title>Sneakers R Us</title>
     <img
       width="100%"
