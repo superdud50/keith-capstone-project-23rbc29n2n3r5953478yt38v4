@@ -3,6 +3,27 @@ footer {
   
 }
 #payment {
-  f;
+  color: brown;
   
+}
+
+#payment2 {
+  color: #ffff99;
+}
+
+#payment3{
+  color: red;
+}
+
+#payment4{
+  color: olive;
+  
+}
+
+#payment5{
+  color: rgb(0, 204, 102);
+}
+
+#payment6{
+  color: #ff9900;
 }
