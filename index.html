@@ -147,7 +147,28 @@
 </div>
    
     </main>
-  
+  <body class="container">
+    <main id="mainTag">
+      <h2>Grid</h2>
+      <h3>HTML Style</h3>
+      <h3>JavaScript</h3>
+      <script>
+        debugger;
+        const myContent = "my content";
+        let myColumnString = createColumn(myContent);
+        myColumnString += createColumn ("my other content")
+        
+
+        const myRowString = createRow(myColumnString);
+
+        const myContainerString = createContainer(myRowString);
+        mainTag.innerHTML += myContainerString;
+      </script>
+      
+        
+      
+    </main>
+  </body>
     <hr />
     <footer>
       Sitemap:<br />
