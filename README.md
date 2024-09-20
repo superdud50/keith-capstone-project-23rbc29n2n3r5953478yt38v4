@@ -7,3 +7,8 @@ git remote add origin https://github.com/superdud50/keith-capstone-project-23rbc
 curl -sS https://webi.sh/gh | sh	
 gh auth login
 git push -u origin main
+
+git remote -v
+git remote set-url origin
+git config user.email ""
+git config user.name ""
